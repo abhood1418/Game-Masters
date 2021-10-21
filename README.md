@@ -28,12 +28,18 @@ Component Hierarchy:
 
 
 MVP: 
+
  -- Built utilizing React.
+ 
  -- Utilizeds React Router.
+ 
  -- Utilizes 6 various Components.
+ 
  -- Utilizes Airtable and Axios.
+ 
  -- Utilizes GET & POST CRUD methods. 
  
  Post MVP: 
+  
   -- Utilize DELETE & PATCH axios.
   
