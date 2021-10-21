@@ -25,3 +25,15 @@ Component Hierarchy:
 
 
 ![Screen Shot 2021-10-21 at 6 16 13 PM](https://user-images.githubusercontent.com/91752553/138365211-18cdba66-3166-429e-91c9-dbc130099bbc.png)
+
+
+MVP: 
+ -- Built utilizing React.
+ -- Utilizeds React Router.
+ -- Utilizes 6 various Components.
+ -- Utilizes Airtable and Axios.
+ -- Utilizes GET & POST CRUD methods. 
+ 
+ Post MVP: 
+  -- Utilize DELETE & PATCH axios.
+  
