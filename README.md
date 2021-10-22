@@ -27,6 +27,15 @@ An App for Game Masters to collaborate and share ideas for TTRPGs.
 ![Screen Shot 2021-10-21 at 5 39 45 PM](https://user-images.githubusercontent.com/91752553/138365053-4bcfa56c-fcd4-44f0-b294-3fe76144765c.png)
 
 
+**API:**
+
+-- Employee two Airtable's. One will handle the Posts of Users while the second will handle the Comments from other Users as it relates to      the individual Posts. This will in effect create a 'Forum' style approach to the overall App. 
+
+**Sample GET Request:**
+
+![Screen Shot 2021-10-22 at 10 58 03 AM](https://user-images.githubusercontent.com/91752553/138476911-227fb1b3-6360-4b78-b41a-29a9f0b8b3fc.png)
+
+
 **MVP:** 
 
  -- Built utilizing React.
