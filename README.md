@@ -45,6 +45,9 @@ An App for Game Masters to collaborate and share ideas for TTRPGs.
   
   
   **Project Schedule:** 
-  
+ 
+ 
+ ![Screen Shot 2021-10-22 at 9 15 36 AM](https://user-images.githubusercontent.com/91752553/138459966-751f8972-79f6-40cc-b996-40e17809062b.png)
+
   
   
