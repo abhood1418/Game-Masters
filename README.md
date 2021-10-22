@@ -41,7 +41,7 @@ An App for Game Masters to collaborate and share ideas for TTRPGs.
  
  **Post MVP:** 
   
-  -- Utilize DELETE & PATCH axios.
+  -- Utilize DELETE & PUT axios.
   
   
   **Project Schedule:** 
