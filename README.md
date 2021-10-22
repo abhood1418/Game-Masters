@@ -19,12 +19,18 @@ An App for Game Masters to collaborate and share ideas for TTRPGs.
 ![Screen Shot 2021-10-21 at 5 38 38 PM](https://user-images.githubusercontent.com/91752553/138364797-1553b1bd-cf3c-4bdf-9fe6-39e3336c7999.png)
 
 
+![Screen Shot 2021-10-22 at 11 09 33 AM](https://user-images.githubusercontent.com/91752553/138479144-31461481-215b-41ee-a0dc-e06b78303133.png)
+
+
 **Desktop:**
 
 ![Screen Shot 2021-10-21 at 5 39 28 PM](https://user-images.githubusercontent.com/91752553/138364824-7a7d12ce-df3f-470f-bea1-fc45558bfcff.png)
 
 
 ![Screen Shot 2021-10-21 at 5 39 45 PM](https://user-images.githubusercontent.com/91752553/138365053-4bcfa56c-fcd4-44f0-b294-3fe76144765c.png)
+
+
+![Screen Shot 2021-10-22 at 11 10 55 AM](https://user-images.githubusercontent.com/91752553/138479171-3771d3ef-2ea2-4d54-bdac-b4943d226237.png)
 
 
 **API:**
