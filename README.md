@@ -50,4 +50,12 @@ An App for Game Masters to collaborate and share ideas for TTRPGs.
  ![Screen Shot 2021-10-22 at 9 15 36 AM](https://user-images.githubusercontent.com/91752553/138459966-751f8972-79f6-40cc-b996-40e17809062b.png)
 
   
+  **SWOT Analysis:**
   
+  Strengths: Styling, Rendering Components, & Axios.
+  
+  Weaknesses: JavaScript Methods.
+  
+  Oppurtunities: Be able to employ use of React Router as well as test my overall understanding of React and Javascript Methods. 
+  
+  Threats: Utilizing and connecting two different Airtables to be able to create both Posts and Comments. With this as well as my Post MVP              goals I hope to practice and solidify my understanding of JavaScript Methods as well as go deeper into Rendering components and              RESTful API's with Airtable.
