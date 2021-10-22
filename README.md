@@ -52,6 +52,12 @@ An App for Game Masters to collaborate and share ideas for TTRPGs.
   
   -- Utilize DELETE & PUT axios.
   
+  -- Add additional external API from Dungeons & Dragons.
+  
+  -- Add new Post Components for Sub Categories.
+  
+  -- Add polling feature for User discussions.
+  
   
   **Project Schedule:** 
  
