@@ -16,36 +16,37 @@ const API_URL = "https://api.airtable.com/v0/appwDf75VNBRVmPrC/Post?api_key=keyT
 
 
 function App() {
-
+ //Data Handling 
+  const [postData, setPostData] = useState([]);
+  const [commentData, setCommentData] = useState([]);
+  
+    //Menu & Data Toggles
+  const [toggleMenu, setToggleMenu] = useState(false);
+  const [toggleFetch, setToggleFetch] = useState(true);
+  
   //Data from Airtable
   useEffect(() => {
     const fetchPosts = async () => {
       const resp = await axios.get(API_URL);
       setPostData(resp.data.records);
-      console.log(postData)
+      
     }
     
     fetchPosts();
   }, [])
-  //Data Handling 
-  const [postData, setPostData] = useState([]);
-  const [commentData, setCommentData] = useState([]);
   
-  //Menu & Data Toggles
-  const [toggleMenu, setToggleMenu] = useState(false);
-  const [toggleFetch, setToggleFetch] = useState(true);
+
 
 
 
   return (
     <div>
-      <h2>Post Test</h2>
+      <h2>Recent Posts</h2>
         {postData.map((post, idx) => (
           <Cards
             postData={postData}
-            key={idx}
+            key={post.id}
             post={post}
-            
           />
         ))}
     </div>
