@@ -5,6 +5,7 @@ import { Link, Route } from 'react-router-dom';
 import Cards from "./components/Cards/Cards.js";
 import Header from "./components/Header/Header.js";
 import Logo from './Media/Logo.png';
+import Footer from './components/Footer/Footer';
 // import Game from './Media/Game.mp4';
 // import Header from 'src/components/Header/Header.js';
 // import Details from './components/Details/Details.js';
@@ -56,6 +57,8 @@ function App() {
             post={post}
           />
         ))}
+      
+      <Footer />
     </div>
   );
 }
