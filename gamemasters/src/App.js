@@ -8,7 +8,7 @@ import Logo from './Media/Logo.png';
 import Footer from './components/Footer/Footer';
 // import Game from './Media/Game.mp4';
 // import Header from 'src/components/Header/Header.js';
-// import Details from './components/Details/Details.js';
+import Inspect from './components/Inspect/Inspect.js';
 // import Footer from 'src/components/Footer/Footer.js';
 // import Comment from 'src/components/Comment/Comment.js';
 // import Post from 'src/components/Post/Post.js';
@@ -50,15 +50,20 @@ function App() {
       <img src={Logo} alt="Game Masters Logo" className="logoclass"/>
 
       <h2>Recent Posts</h2>
-        {postData.map((post, idx) => (
+      {postData.map((post, idx) => (
           <Cards
             postData={postData}
             key={post.id}
             post={post}
           />
         ))}
-      
       <Footer />
+
+      {/* <Route path="Inspect/:id">
+        <Inspect
+          postData={postData}
+        />
+      </Route> */}
     </div>
   );
 }

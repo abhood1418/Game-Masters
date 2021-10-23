@@ -4,11 +4,14 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import { Link, Route } from 'react-router-dom';
+import Inspect from '../Inspect/Inspect';
+
 import './Card.css'
 
 
 
-function MediaCard({ postData, post}) {
+function MediaCard({ postData, post }) {
   console.log(post);
 
   return (
@@ -28,10 +31,18 @@ function MediaCard({ postData, post}) {
           {post.fields.description}
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button size="small">See More</Button>
+        <CardActions>
+          <Link to={`Inspect/${post.id}`}>
+            <Button size="small">See More</Button>
+          </Link>
       </CardActions>
       </Card>
+
+      <Route path="/Inspect/:id" exact>
+        <Inspect
+          post={post}
+        />
+      </Route>
       </div>
   );
 }

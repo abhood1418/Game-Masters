@@ -7,6 +7,10 @@
   transform: translateY(-10px);
 }
 
+.cardstyle a {
+  text-decoration: none;
+}
+
 .global h2 {
   text-align: center;
   font-family: Libre-Baskerville;
