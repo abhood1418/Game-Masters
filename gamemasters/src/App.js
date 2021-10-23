@@ -3,6 +3,7 @@ import axios from 'axios';
 import { useState, useEffect } from 'react';
 import { Link, Route } from 'react-router-dom';
 import Cards from "./components/Cards/Cards.js";
+import Header from "./components/Header/Header.js";
 // import Header from 'src/components/Header/Header.js';
 // import Details from './components/Details/Details.js';
 // import Footer from 'src/components/Footer/Footer.js';
@@ -40,7 +41,15 @@ function App() {
 
 
   return (
-    <div className="cardstyles">
+
+    <div className="global">
+      <Header />
+
+
+
+
+
+      
       <h2>Recent Posts</h2>
         {postData.map((post, idx) => (
           <Cards
