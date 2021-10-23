@@ -47,7 +47,7 @@ function App() {
 
     <div className="global">
       <Header />
-      <img src={Logo} alt="Game Masters Logo"/>
+      <img src={Logo} alt="Game Masters Logo" className="logoclass"/>
 
       <h2>Recent Posts</h2>
         {postData.map((post, idx) => (

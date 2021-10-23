@@ -16,3 +16,9 @@
   text-align: center;
   margin-bottom: 0px;
 }
+
+@media only screen and (max-width: 375px) {
+  .logoclass {
+    width: 370px;
+  }
+}
