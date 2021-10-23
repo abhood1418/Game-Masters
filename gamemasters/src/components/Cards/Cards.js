@@ -17,7 +17,7 @@ function MediaCard({ postData, post}) {
         <CardMedia
         component="img"
         height="250"
-        image="https://cdn.vox-cdn.com/thumbor/Bm4pPuVPMU9J8QMAJmltvUvM4WM=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/13301897/D_D_Art_and_Arcan__Regular_Edition__book_cover.jpg"
+        image={post.fields.img}
         alt="D and D art"
       />
       <CardContent>
