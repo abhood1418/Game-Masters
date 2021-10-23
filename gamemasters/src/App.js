@@ -40,7 +40,7 @@ function App() {
 
 
   return (
-    <div>
+    <div className="cardstyles">
       <h2>Recent Posts</h2>
         {postData.map((post, idx) => (
           <Cards

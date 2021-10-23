@@ -1,0 +1,8 @@
+.cardstyle {
+  display: inline-flex;
+  margin: 30px;
+}
+
+.cardstyles h2 {
+  text-align: center;
+}
