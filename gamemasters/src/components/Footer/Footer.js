@@ -8,7 +8,8 @@ const Footer = () => {
   return (
     <div className="footer">
       <img src={Github} alt="github" className="footimg" />
-      <img src={Linkedin} alt="linkedin" className="footimg"/>
+      <img src={Linkedin} alt="linkedin" className="footimg" />
+      <h6>Created By: ABHood - 2021</h6>
     </div>
   )
 }
