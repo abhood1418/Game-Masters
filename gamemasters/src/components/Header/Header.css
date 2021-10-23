@@ -1,0 +1,27 @@
+
+
+.css-e53awj-MultiStack-root {
+display: flex;
+text-align: center;
+justify-content: center;
+background-color: black;
+}
+
+.header {
+display: inline-flex;
+background-color: black;
+color: #BC0F0E;
+width: 100%;
+font-family: 'Orbitron', sans-serif;
+border-bottom: solid 5px #BC0F0E;
+}
+
+.header Button {
+  /* margin-left: 78vw; */
+  color: #BC0F0E;
+  background-color: black;
+}
+
+.MenuList {
+  background-color: black;
+}
