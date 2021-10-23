@@ -9,6 +9,7 @@ import MenuList from '@mui/material/MenuList';
 import Stack from '@mui/material/Stack';
 import MenuIcon from '@mui/icons-material/Menu';
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   const [open, setOpen] = React.useState(false);
@@ -89,7 +90,9 @@ export default function Header() {
                   >
                     <MenuItem className="menuitem" onClick={handleClose}>Home</MenuItem>
                     <MenuItem className="menuitem" onClick={handleClose}>Posts</MenuItem>
+                    <Link to="/Post">
                     <MenuItem className="menuitem" onClick={handleClose}>Create Post</MenuItem>
+                    </Link>
                     <MenuItem className="menuitem" onClick={handleClose}>Resources</MenuItem>
                   </MenuList>
                 </ClickAwayListener>

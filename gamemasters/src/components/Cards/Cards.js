@@ -32,16 +32,14 @@ function MediaCard({ postData, post }) {
         </Typography>
       </CardContent>
         <CardActions>
-          <Link to={`Inspect/${post.id}`}>
+          <Link to={`/Inspect/${post.id}`}>
             <Button size="small">See More</Button>
           </Link>
       </CardActions>
       </Card>
 
-      <Route path="/Inspect/:id" exact>
-        <Inspect
-          post={post}
-        />
+      <Route path="/Inspect/:id">
+        <Inspect />
       </Route>
       </div>
   );

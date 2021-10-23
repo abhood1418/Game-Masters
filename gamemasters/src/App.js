@@ -11,7 +11,7 @@ import Footer from './components/Footer/Footer';
 import Inspect from './components/Inspect/Inspect.js';
 // import Footer from 'src/components/Footer/Footer.js';
 // import Comment from 'src/components/Comment/Comment.js';
-// import Post from 'src/components/Post/Post.js';
+import Post from './components/Post/Post.js';
 // import Resources from 'src/components/Resources/Resources.js';
 
 
@@ -46,24 +46,30 @@ function App() {
   return (
 
     <div className="global">
+      <Route path='/' exact>
       <Header />
       <img src={Logo} alt="Game Masters Logo" className="logoclass"/>
 
       <h2>Recent Posts</h2>
-      {postData.map((post, idx) => (
+        {postData.map((post, idx) => (
           <Cards
             postData={postData}
             key={post.id}
             post={post}
           />
         ))}
+      
       <Footer />
+      
+      </Route>
+      
+      <Route path="/Inspect">
+        <Inspect />
+      </Route>
 
-      {/* <Route path="Inspect/:id">
-        <Inspect
-          postData={postData}
-        />
-      </Route> */}
+      <Route path="/Post">
+        <Post />
+      </Route>
     </div>
   );
 }
