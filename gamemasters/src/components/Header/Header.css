@@ -4,24 +4,29 @@
 display: flex;
 text-align: center;
 justify-content: center;
-background-color: black;
+background-color: #090809;
 }
 
 .header {
 display: inline-flex;
-background-color: black;
+background-color: #090809;
 color: #BC0F0E;
 width: 100%;
 font-family: 'Orbitron', sans-serif;
-border-bottom: solid 5px #BC0F0E;
+border-bottom: solid 4.2px #BC0F0E;
+}
+
+.header h1 {
+  margin-left: 2%;
 }
 
 .header Button {
-  /* margin-left: 78vw; */
   color: #BC0F0E;
-  background-color: black;
+  background-color: #090809;
 }
 
-.MenuList {
-  background-color: black;
+.menulist {
+  background-color: #090809;
+  color: white;
 }
+

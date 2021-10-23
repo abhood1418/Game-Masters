@@ -10,7 +10,7 @@ import Stack from '@mui/material/Stack';
 import MenuIcon from '@mui/icons-material/Menu';
 import './Header.css';
 
-export default function MenuListComposition() {
+export default function Header() {
   const [open, setOpen] = React.useState(false);
   const anchorRef = React.useRef(null);
 
@@ -80,17 +80,17 @@ export default function MenuListComposition() {
             >
               <Paper>
                 <ClickAwayListener onClickAway={handleClose}>
-                  <MenuList
+                  <MenuList className="menulist"
                     autoFocusItem={open}
                     id="composition-menu"
                     aria-labelledby="composition-button"
                     onKeyDown={handleListKeyDown}
                     backgroundColor="black"
                   >
-                    <MenuItem onClick={handleClose}>Home</MenuItem>
-                    <MenuItem onClick={handleClose}>Posts</MenuItem>
-                    <MenuItem onClick={handleClose}>Create Post</MenuItem>
-                    <MenuItem onClick={handleClose}>Resources</MenuItem>
+                    <MenuItem className="menuitem" onClick={handleClose}>Home</MenuItem>
+                    <MenuItem className="menuitem" onClick={handleClose}>Posts</MenuItem>
+                    <MenuItem className="menuitem" onClick={handleClose}>Create Post</MenuItem>
+                    <MenuItem className="menuitem" onClick={handleClose}>Resources</MenuItem>
                   </MenuList>
                 </ClickAwayListener>
               </Paper>
