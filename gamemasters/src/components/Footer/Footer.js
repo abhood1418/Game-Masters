@@ -1,8 +1,14 @@
+import Github from './Github.png';
+import Linkedin from './Linkedin.png';
+import './Footer.css';
+
+
 
 const Footer = () => {
   return (
-    <div>
-      <p>Footer goes here</p>
+    <div className="footer">
+      <img src={Github} alt="github" className="footimg" />
+      <img src={Linkedin} alt="linkedin" className="footimg"/>
     </div>
   )
 }

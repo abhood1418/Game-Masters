@@ -3,6 +3,10 @@
   margin: 30px;
 }
 
+.cardstyle:hover {
+  transform: translateY(-10px);
+}
+
 .global h2 {
   text-align: center;
   font-family: Libre-Baskerville;
