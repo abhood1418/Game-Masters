@@ -10,10 +10,10 @@ background-color: #090809;
 .header {
 display: inline-flex;
 background-color: #090809;
-color: #BC0F0E;
+color: #B33920;
 width: 100%;
 font-family: 'Orbitron', sans-serif;
-border-bottom: solid 4.2px #BC0F0E;
+border-bottom: solid 4.2px #B33920;
 }
 
 .header h1 {
@@ -21,7 +21,7 @@ border-bottom: solid 4.2px #BC0F0E;
 }
 
 .header Button {
-  color: #BC0F0E;
+  color: #B33920;
   background-color: #090809;
 }
 

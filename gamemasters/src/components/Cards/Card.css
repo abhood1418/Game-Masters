@@ -6,3 +6,11 @@
 .global h2 {
   text-align: center;
 }
+
+.global {
+  background-color: #D9D9D9;
+}
+
+.global, video {
+  text-align: center;
+}

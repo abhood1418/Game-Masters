@@ -4,6 +4,8 @@ import { useState, useEffect } from 'react';
 import { Link, Route } from 'react-router-dom';
 import Cards from "./components/Cards/Cards.js";
 import Header from "./components/Header/Header.js";
+import Game from './Media/Game.png';
+// import Game from './Media/Game.mp4';
 // import Header from 'src/components/Header/Header.js';
 // import Details from './components/Details/Details.js';
 // import Footer from 'src/components/Footer/Footer.js';
@@ -44,6 +46,7 @@ function App() {
 
     <div className="global">
       <Header />
+      <img src={Game} alt="Game Masters Logo"/>
 
 
 
