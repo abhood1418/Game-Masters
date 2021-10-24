@@ -92,7 +92,9 @@ export default function Header() {
                     <Link to="/Post">
                     <MenuItem className="menuitem" onClick={handleClose}>Create Post</MenuItem>
                     </Link>
+                    <Link to ="/Resources">
                     <MenuItem className="menuitem" onClick={handleClose}>Resources</MenuItem>
+                    </Link>
                   </MenuList>
                 </ClickAwayListener>
               </Paper>

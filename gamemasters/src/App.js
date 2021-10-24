@@ -12,7 +12,7 @@ import Inspect from './components/Inspect/Inspect.js';
 // import Footer from 'src/components/Footer/Footer.js';
 // import Comment from 'src/components/Comment/Comment.js';
 import Post from './components/Post/Post.js';
-// import Resources from 'src/components/Resources/Resources.js';
+import Resources from './components/Resources/Resources.js';
 
 
 //Post GET URL
@@ -74,6 +74,10 @@ function App() {
           toggleFetch={toggleFetch}
           setToggleFetch={setToggleFetch}
         />
+      </Route>
+
+      <Route path="/Resources">
+          <Resources />
       </Route>
     </div>
   );
