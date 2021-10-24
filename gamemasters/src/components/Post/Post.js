@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { Redirect, useParams } from 'react-router-dom';
 import './Post.css';
 
+
 const API_URL = "https://api.airtable.com/v0/appwDf75VNBRVmPrC/Post?api_key=keyTC7ZYPD0132E0A";
 
 const Post = ({setToggleFetch, toggleFetch}) => {
@@ -44,7 +45,7 @@ const Post = ({setToggleFetch, toggleFetch}) => {
   return (
     <div className="newpostdiv">
       <form className="newpost" onSubmit={handlePostRequest}>
-        <h1>Create A Post</h1>
+        <h1 id="headerhead">Create A Post</h1>
         <label htmlFor="title">Post Title: </label>
         <input className="inputs" type="text" id="title" placeholder="title" onChange={(ev) => setTitle(ev.target.value)}></input>
         <label htmlFor="tagline">Tagline: </label>
