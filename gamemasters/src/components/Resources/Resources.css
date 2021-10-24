@@ -1,0 +1,16 @@
+.resourceCards {
+  display: inline-flex;
+  margin: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards {
+  margin: 30px;
+  
+}
+
+.cards:hover {
+  transform: translateY(-10px);
+}
+
