@@ -1,4 +1,6 @@
 import { useParams } from "react-router-dom";
+import AddCommentIcon from '@mui/icons-material/AddComment';
+import './Inspect.css';
 
 
 const Inspect = ({ postData }) => {
@@ -12,6 +14,7 @@ const Inspect = ({ postData }) => {
       <img src={details.fields.img}/>
       <p>{details.fields.comment}</p>
       <em>{details.fields.author}</em>
+      <button><AddCommentIcon/></button>
     </div>
   )
 }
