@@ -64,20 +64,26 @@ function App() {
       </Route>
       
       <Route path="/Inspect/:id">
+        <Header />
         <Inspect
         postData={postData}
         />
+        <Footer />
       </Route>
 
       <Route path="/Post">
+        <Header />
         <Post
           toggleFetch={toggleFetch}
           setToggleFetch={setToggleFetch}
         />
+        <Footer />
       </Route>
 
       <Route path="/Resources">
-          <Resources />
+        <Header />
+        <Resources />
+        <Footer />
       </Route>
     </div>
   );
