@@ -1,4 +1,5 @@
-
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
 
 const Post = () => {
   return (
@@ -15,6 +16,7 @@ const Post = () => {
         <textarea type='text' id="content" placeholder="content..."></textarea>
         <label htmlFor="author">Author: </label>
         <input type="text" id="author" placeholder="author"></input>
+        <Button variant="contained">Submit</Button>
       </form>
     </div>
   )
