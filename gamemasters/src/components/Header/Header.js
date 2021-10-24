@@ -87,7 +87,9 @@ export default function Header() {
                     aria-labelledby="composition-button"
                     onKeyDown={handleListKeyDown}
                   >
+                    <Link to="/">
                     <MenuItem className="menuitem" onClick={handleClose}>Home</MenuItem>
+                    </Link>
                     <MenuItem className="menuitem" onClick={handleClose}>Posts</MenuItem>
                     <Link to="/Post">
                     <MenuItem className="menuitem" onClick={handleClose}>Create Post</MenuItem>

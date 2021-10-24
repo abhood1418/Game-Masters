@@ -30,3 +30,12 @@ border-bottom: solid 4.2px #B33920;
   color: white;
 }
 
+a {
+  text-decoration: none;
+  color:white;
+}
+
+a:visited {
+  color: white;
+}
+
