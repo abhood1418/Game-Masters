@@ -37,7 +37,7 @@ function App() {
     }
     
     fetchPosts();
-  }, [])
+  }, [toggleFetch])
   
 
 
@@ -70,7 +70,10 @@ function App() {
       </Route>
 
       <Route path="/Post">
-        <Post />
+        <Post
+          toggleFetch={toggleFetch}
+          setToggleFetch={setToggleFetch}
+        />
       </Route>
     </div>
   );
