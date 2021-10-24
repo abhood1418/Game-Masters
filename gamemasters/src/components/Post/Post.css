@@ -1,0 +1,51 @@
+.newpostdiv {
+  flex-direction: column;
+  font-family: Libre-Baskerville;
+}
+
+/* .newpost {
+
+
+
+} */
+
+input {
+  width: 250px;
+  height: 34px;
+}
+
+.inputs {
+  justify-content: center;
+  margin-left: 41.1%;
+}
+
+label {
+  margin-top: 4%;
+  margin-bottom: 1%;
+}
+
+form {
+  flex-direction: column;
+  display: flex;
+  font-family: Libre-Baskerville;
+  justify-content: center;
+}
+
+textarea {
+  width: 800px;
+  height: 400px;
+  margin-left: 22.2%;
+  margin-bottom: 0%;
+}
+
+form textarea {
+  justify-content: center;
+}
+
+#submitpost {
+  justify-content: center;
+  width: 200px;
+  margin-left: 42.9%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
