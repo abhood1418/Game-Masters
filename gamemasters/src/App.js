@@ -63,8 +63,10 @@ function App() {
       
       </Route>
       
-      <Route path="/Inspect">
-        <Inspect />
+      <Route path="/Inspect/:id">
+        <Inspect
+        postData={postData}
+        />
       </Route>
 
       <Route path="/Post">

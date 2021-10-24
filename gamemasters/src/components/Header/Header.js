@@ -86,7 +86,6 @@ export default function Header() {
                     id="composition-menu"
                     aria-labelledby="composition-button"
                     onKeyDown={handleListKeyDown}
-                    backgroundColor="black"
                   >
                     <MenuItem className="menuitem" onClick={handleClose}>Home</MenuItem>
                     <MenuItem className="menuitem" onClick={handleClose}>Posts</MenuItem>

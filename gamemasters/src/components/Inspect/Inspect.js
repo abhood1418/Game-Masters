@@ -1,12 +1,13 @@
 import { useParams } from "react-router-dom";
 
 
-const Inspect = ({ postData, post}) => {
-  console.log(post);
+const Inspect = ({ postData }) => {
+  const params = useParams();
+  const details = postData.find((detail) => detail.id === params.id);
   console.log(postData);
   return (
     <div>
-      <h1>Hello World</h1>
+      <h1>{details.fields.title}</h1>
     </div>
   )
 }
