@@ -1,7 +1,11 @@
 .inspection button {
   text-decoration: none;
   /* border: none; */
-  background-color: #D9D9D9;
+  background-color: black;
   color: #B33920;
-  
+}
+
+.inspection {
+  background-image: url("https://i.pinimg.com/originals/47/b5/67/47b567ff37393b5c564cbe1186e90662.jpg ");
+  margin-top: 0;
 }
