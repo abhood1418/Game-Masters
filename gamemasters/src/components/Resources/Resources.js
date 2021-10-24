@@ -9,6 +9,9 @@ import { maxHeight } from '@mui/system';
 const Resources = () => {
   return (
     <div className="resourceCards">
+      <section className="resourcehead">
+      <h1>Resources</h1>
+    </section>
       <Card sx={{ maxWidth: 345 }} className="cards">
       <CardActionArea>
         <CardMedia

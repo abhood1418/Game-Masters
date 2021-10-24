@@ -14,3 +14,11 @@
   transform: translateY(-10px);
 }
 
+section {
+  width:100%;
+}
+
+.resourcehead {
+  font-family: 'Orbitron', sans-serif;
+  display:block;
+}
