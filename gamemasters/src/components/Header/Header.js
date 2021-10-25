@@ -10,6 +10,7 @@ import Stack from '@mui/material/Stack';
 import MenuIcon from '@mui/icons-material/Menu';
 import './Header.css';
 import { Link } from 'react-router-dom';
+import Master from './Master.png';
 
 export default function Header() {
   const [open, setOpen] = React.useState(false);
@@ -52,7 +53,11 @@ export default function Header() {
 
     <Stack direction="row" spacing={2}>
       <div className="header">
-        <h1>Game Masters</h1>
+        <section className="headlogosec">
+        <Link to="/">
+        <img src={Master} alt="Game Masters Logo" className="headlogo"/>
+        </Link>
+        </section>
         <section id="hamburger">
         <Button
           ref={anchorRef}

@@ -11,7 +11,7 @@ input {
 
 .inputs {
   justify-content: center;
-  margin-left: 41.1%;
+  margin: auto;
 }
 
 label {
@@ -30,8 +30,7 @@ form {
 textarea {
   width: 800px;
   height: 400px;
-  margin-left: 18%;
-  margin-bottom: 0%;
+  margin: auto;
 }
 
 form textarea {
@@ -41,9 +40,10 @@ form textarea {
 #submitpost {
   justify-content: center;
   width: 200px;
-  margin-left: 42.9%;
+  margin: auto;
   margin-top: 2%;
   margin-bottom: 2%;
+  background-color: #B33920;
 }
 
 #headerhead {
