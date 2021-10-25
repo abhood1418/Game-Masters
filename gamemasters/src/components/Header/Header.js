@@ -53,6 +53,7 @@ export default function Header() {
     <Stack direction="row" spacing={2}>
       <div className="header">
         <h1>Game Masters</h1>
+        <section id="hamburger">
         <Button
           ref={anchorRef}
           id="composition-button"
@@ -104,6 +105,7 @@ export default function Header() {
           )}
         </Popper>
         <p></p>
+        </section>
       </div>
     </Stack>
   );
