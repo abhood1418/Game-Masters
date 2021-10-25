@@ -15,6 +15,7 @@ width: 100%;
 font-family: 'Orbitron', sans-serif;
 border-bottom: solid 4.2px #B33920;
 position: fixed;
+opacity: .98;
 }
 
 .header h1 {
