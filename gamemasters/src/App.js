@@ -7,9 +7,7 @@ import Header from "./components/Header/Header.js";
 import Logo from './Media/Logo.png';
 import Footer from './components/Footer/Footer';
 // import Game from './Media/Game.mp4';
-// import Header from 'src/components/Header/Header.js';
 import Inspect from './components/Inspect/Inspect.js';
-// import Footer from 'src/components/Footer/Footer.js';
 // import Comment from 'src/components/Comment/Comment.js';
 import Post from './components/Post/Post.js';
 import Resources from './components/Resources/Resources.js';
@@ -83,6 +81,19 @@ function App() {
       <Route path="/Resources">
         <Header />
         <Resources />
+        <Footer />
+      </Route>
+
+      <Route path="/All">
+        <Header />
+        <h1>All Posts</h1>
+        {postData.map((post, idx) => (
+          <Cards
+            postData={postData}
+            key={post.id}
+            post={post}
+          />
+        ))}
         <Footer />
       </Route>
     </div>

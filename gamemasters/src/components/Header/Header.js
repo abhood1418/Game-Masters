@@ -90,8 +90,10 @@ export default function Header() {
                   >
                     <Link to="/">
                     <MenuItem className="menuitem" onClick={handleClose}>Home</MenuItem>
-                    </Link>
+                      </Link>
+                      <Link to="/All">
                     <MenuItem className="menuitem" onClick={handleClose}>Posts</MenuItem>
+                    </Link>
                     <Link to="/Post">
                     <MenuItem className="menuitem" onClick={handleClose}>Create Post</MenuItem>
                     </Link>

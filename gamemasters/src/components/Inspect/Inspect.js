@@ -11,10 +11,9 @@ const Inspect = ({ postData }) => {
     <div className='inspection'>
       <h1>{details.fields.title}</h1>
       <h2>{details.fields.description}</h2>
-      <img src={details.fields.img}/>
-      <p className="describe">{details.fields.comment}</p>
-      <em className="author">{details.fields.author}</em>
-      <button><AddCommentIcon/></button>
+      <img src={details.fields.img} className="inspimg"/>
+      <p className="describe">{details.fields.comment}<br/><br/><em className="author"><strong>{details.fields.author}</strong></em><br/><br/><button className="combtn"><AddCommentIcon /></button></p>
+      {/* <button className="combtn"><AddCommentIcon /></button> */}
     </div>
   )
 }
