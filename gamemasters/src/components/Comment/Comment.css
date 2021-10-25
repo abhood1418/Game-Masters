@@ -1,0 +1,25 @@
+.comment-form {
+  background-color: white;
+  margin: auto;
+  margin-bottom: 10%;
+  height: 240px;
+  width: 600px;
+  border: solid 5px #B33920;
+  border-radius: 16px;
+  box-shadow: 0 17px 9px -7px rgba(0,0,0,0.35);
+}
+
+#comment {
+  height: 100px;
+  width: 500px;
+}
+
+#submit-comment {
+  justify-content: center;
+  width: 200px;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: #B33920;
+  color: black;
+}

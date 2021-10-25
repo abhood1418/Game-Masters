@@ -5,6 +5,7 @@ import { Link, Route } from 'react-router-dom';
 import Cards from "./components/Cards/Cards.js";
 import Header from "./components/Header/Header.js";
 import Logo from './Media/Logo.png';
+import Logo2 from './Media/Logo2.png';
 import Footer from './components/Footer/Footer';
 // import Game from './Media/Game.mp4';
 import Inspect from './components/Inspect/Inspect.js';
@@ -46,7 +47,7 @@ function App() {
     <div className="global">
       <Route path='/' exact>
       <Header />
-      <img src={Logo} alt="Game Masters Logo" className="logoclass"/>
+      <img src={Logo2} alt="Game Masters Logo" className="logoclass"/>
 
       <h2>Recent Posts</h2>
         {postData.map((post, idx) => (
