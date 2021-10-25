@@ -1,6 +1,5 @@
 .inspection button {
   text-decoration: none;
-  /* border: none; */
   background-color: black;
   color: #B33920;
 }
@@ -25,22 +24,15 @@
   border: solid 2px #B33920; 
   max-width: 900px;
   box-shadow: 0 17px 9px -7px rgba(0,0,0,0.35);
+  border-radius: 5px;
 }
-
-@keyframes rotate {
-  to {
-    --angle: 360deg;
-  }
-}
-
-/* @property --angle {
-  syntax: '<angle';
-  initial-value: 0deg;
-  inherits: false;
-} */
 
 .describe {
   align-self: center;
   margin: auto;
   padding: 25px;
+}
+
+.author {
+  margin: 10%;
 }
