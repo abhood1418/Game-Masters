@@ -12,7 +12,7 @@ const Inspect = ({ postData }) => {
       <h1>{details.fields.title}</h1>
       <h2>{details.fields.description}</h2>
       <img src={details.fields.img}/>
-      <p>{details.fields.comment}</p>
+      <p className="describe">{details.fields.comment}</p>
       <em>{details.fields.author}</em>
       <button><AddCommentIcon/></button>
     </div>
