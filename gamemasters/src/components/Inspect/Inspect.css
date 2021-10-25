@@ -5,7 +5,14 @@
   color: #B33920;
 }
 
-.inspection {
-  background-image: url("https://i.pinimg.com/originals/47/b5/67/47b567ff37393b5c564cbe1186e90662.jpg ");
-  margin-top: 0;
+.inspection img {
+  border: solid 4px #B33920;
+}
+
+.inspection, h1 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.inspection h2 {
+  font-family: 'Orbitron', sans-serif;
 }
