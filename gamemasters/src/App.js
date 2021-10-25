@@ -32,7 +32,7 @@ function App() {
     const fetchPosts = async () => {
       const resp = await axios.get(API_URL);
       setPostData(resp.data.records);
-      
+      console.log(postData);
     }
     
     fetchPosts();

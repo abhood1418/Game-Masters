@@ -1,7 +1,9 @@
 import { useParams } from "react-router-dom";
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import AddCommentIcon from '@mui/icons-material/AddComment';
 import Comment from '../Comment/Comment.js';
+import Comdata from '../Comdata/Comdata';
+import axios from "axios";
 import './Inspect.css';
 
 
@@ -9,13 +11,11 @@ const Inspect = ({ postData }) => {
   const [toggleComment, setToggleComment] = useState(false);
   const params = useParams();
   const details = postData.find((detail) => detail.id === params.id);
-  console.log(postData);
-
+  console.log(details);
   const showComment = (ev) => {
     setToggleComment(!toggleComment);
   }
-
-
+  
   return (
     <div className='inspection'>
       <h1>{details.fields.title}</h1>
@@ -35,6 +35,11 @@ const Inspect = ({ postData }) => {
         </button>
       </p>
       {toggleComment ? <Comment /> : null}
+      <section id="comment-section">
+          <Comdata
+            details={details}
+          />
+      </section>
     </div>
   )
 }
