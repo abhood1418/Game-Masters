@@ -11,7 +11,7 @@ const Resources = () => {
       <section className="resourcehead">
       <h1>Resources</h1>
       </section>
-      <a target="_blank" href="https://www.dndbeyond.com/">
+      <a href="https://www.dndbeyond.com/">
       <Card sx={{ maxWidth: 345 }} className="cards">
       <CardActionArea>
         <CardMedia

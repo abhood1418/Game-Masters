@@ -25,7 +25,6 @@ function App() {
   const [commentData, setCommentData] = useState([]);
   
     //Menu & Data Toggles
-  // const [toggleMenu, setToggleMenu] = useState(false);
   const [toggleFetch, setToggleFetch] = useState(true);
   const [toggleComms, setToggleComms] = useState(true);
   
@@ -43,7 +42,6 @@ function App() {
     const fetchComments = async () => {
       const response = await axios.get(API2_URL);
       setCommentData(response.data.records);
-      console.log(commentData);
     }
     fetchComments();
   }, [toggleComms]);

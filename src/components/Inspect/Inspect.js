@@ -22,7 +22,7 @@ const Inspect = ({ postData, commentData, toggleComms, setToggleComms }) => {
     <div className='inspection'>
       <h1>{details.fields.title}</h1>
       <h2>{details.fields.description}</h2>
-      <img src={details.fields.img} className="inspimg"/>
+      <img src={details.fields.img} className="inspimg" alt="user post pictured"/>
       <p className="describe">
         {details.fields.comment}
         <br />
