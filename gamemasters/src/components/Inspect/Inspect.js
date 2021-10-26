@@ -16,7 +16,7 @@ const Inspect = ({ postData, commentData }) => {
     setToggleComment(!toggleComment);
   }
 
-  console.log(commentData);
+  console.log(postData);
   
   return (
     <div className='inspection'>
@@ -40,7 +40,8 @@ const Inspect = ({ postData, commentData }) => {
       <section id="comment-section">
         <Comdata
             details={details}
-            commentData={commentData}
+          commentData={commentData}
+          postData={postData}
           />
       </section>
     </div>
