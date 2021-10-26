@@ -7,14 +7,16 @@ import axios from "axios";
 import './Inspect.css';
 
 
-const Inspect = ({ postData }) => {
+const Inspect = ({ postData, commentData }) => {
   const [toggleComment, setToggleComment] = useState(false);
   const params = useParams();
   const details = postData.find((detail) => detail.id === params.id);
-  console.log(details);
+  // console.log(details);
   const showComment = (ev) => {
     setToggleComment(!toggleComment);
   }
+
+  console.log(commentData);
   
   return (
     <div className='inspection'>
@@ -36,8 +38,9 @@ const Inspect = ({ postData }) => {
       </p>
       {toggleComment ? <Comment /> : null}
       <section id="comment-section">
-          <Comdata
+        <Comdata
             details={details}
+            commentData={commentData}
           />
       </section>
     </div>

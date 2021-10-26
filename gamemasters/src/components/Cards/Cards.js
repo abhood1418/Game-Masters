@@ -12,7 +12,7 @@ import './Card.css'
 
 
 function MediaCard({ postData, post }) {
-  console.log(post);
+  // console.log(post);
 
   return (
     <div className="cardstyle">

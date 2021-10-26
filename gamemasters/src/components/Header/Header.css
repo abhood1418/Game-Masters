@@ -6,10 +6,10 @@ text-align: center;
 justify-content: center;
 background-color: #311614;
 }
-
+/* #090809 */
 .header {
 display: inline-flex;
-background-color: #090809;
+background-color: #000000;
 color: #B33920;
 width: 100%;
 font-family: 'Orbitron', sans-serif;
@@ -27,7 +27,7 @@ opacity: 0.98; */
 
 .header Button {
   color: #B33920;
-  background-color: #090809;
+  background-color: #000000;
 }
 
 .menulist {
@@ -58,7 +58,7 @@ a:visited {
   width: 50px;
   padding-top: 20px;
   padding-right: 40px;
-  background-color: #090809;
+  background-color: #000000;
 }
 
 .headlogo {

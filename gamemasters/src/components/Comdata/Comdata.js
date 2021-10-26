@@ -1,17 +1,30 @@
 import { useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
+import './Comdata.css';
 
 
-const Comdata = ({ details }) => {
-  const commentContent = details.fields["content (from replies)"][0];
-  const commentAuthor = details.fields["author (from replies)"][0];
+const Comdata = ({ details, commentData }) => {
+  // const findId = commentData.fields;
   console.log(details);
+  console.log(commentData);
+  const detailsId = details.id;
+  console.log(detailsId);
+  const commentId = commentData[0].fields.Post[0];
+  console.log(commentId);
+  const showComments = commentData.filter((comment) => commentId === detailsId)
+  console.log(showComments);
 
   return (
-    <div>
-      <p>{commentContent}</p>
-      <h5>{commentAuthor}</h5>
+    <div className="comments-display">
+      {showComments.map((comment) => (
+        <section>
+          <p>{comment.fields.content}
+            <em>{comment.fields.author}</em>
+          </p>
+          
+          </section>
+      ))}
     </div>
   )
 }

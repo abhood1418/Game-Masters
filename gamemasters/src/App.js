@@ -17,6 +17,7 @@ import Resources from './components/Resources/Resources.js';
 //Post GET URL
 const API_URL = "https://api.airtable.com/v0/appwDf75VNBRVmPrC/Post?api_key=keyTC7ZYPD0132E0A";
 
+const API2_URL = "https://api.airtable.com/v0/appwDf75VNBRVmPrC/Comment?api_key=keyTC7ZYPD0132E0A"
 
 function App() {
  //Data Handling 
@@ -32,13 +33,20 @@ function App() {
     const fetchPosts = async () => {
       const resp = await axios.get(API_URL);
       setPostData(resp.data.records);
-      console.log(postData);
+      // console.log(postData);
     }
     
     fetchPosts();
   }, [toggleFetch])
   
-
+  useEffect(() => {
+    const fetchComments = async () => {
+      const response = await axios.get(API2_URL);
+      setCommentData(response.data.records);
+      console.log(commentData);
+    }
+    fetchComments();
+  }, []);
 
 
 
@@ -65,7 +73,8 @@ function App() {
       <Route path="/Inspect/:id">
         <Header />
         <Inspect
-        postData={postData}
+          postData={postData}
+          commentData={commentData}
         />
         <Footer />
       </Route>
