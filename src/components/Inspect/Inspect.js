@@ -36,7 +36,7 @@ const Inspect = ({ postData, commentData }) => {
           <AddCommentIcon />
         </button>
       </p>
-      {toggleComment ? <Comment /> : null}
+      {toggleComment ? <Comment params={params}/> : null}
       <section id="comment-section">
         <Comdata
             details={details}
