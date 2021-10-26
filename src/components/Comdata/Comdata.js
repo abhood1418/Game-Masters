@@ -23,10 +23,10 @@ const Comdata = ({ details, commentData, postData }) => {
     <div className="comments-display">
         
       <section id="comdata-section">
-        {showComments.map((comment) => (
+        {showComments.map((comment, idx) => (
           
-          <p id="comment-content">{comment.fields.content}
-            <em id="comment-author"><strong>- {comment.fields.author}</strong></em>
+          <p id="comment-content" key={idx}>{comment.fields.content}
+            <em id="comment-author" key={idx}><strong>- {comment.fields.author}</strong></em>
           </p>
         ))
         }

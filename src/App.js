@@ -1,10 +1,10 @@
 import './App.css';
 import axios from 'axios';
 import { useState, useEffect } from 'react';
-import { Link, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import Cards from "./components/Cards/Cards.js";
 import Header from "./components/Header/Header.js";
-import Logo from './Media/Logo.png';
+// import Logo from './Media/Logo.png';
 import Logo2 from './Media/Logo2.png';
 import Footer from './components/Footer/Footer';
 // import Game from './Media/Game.mp4';
@@ -25,7 +25,7 @@ function App() {
   const [commentData, setCommentData] = useState([]);
   
     //Menu & Data Toggles
-  const [toggleMenu, setToggleMenu] = useState(false);
+  // const [toggleMenu, setToggleMenu] = useState(false);
   const [toggleFetch, setToggleFetch] = useState(true);
   
   //Data from Airtable
