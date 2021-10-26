@@ -3,10 +3,10 @@ import { useState } from 'react';
 import axios from 'axios';
 import './Comment.css';
 
-// const API_URL = "https://api.airtable.com/v0/appwDf75VNBRVmPrC/Post?api_key=keyTC7ZYPD0132E0A"
+const API_URL = `https://api.airtable.com/v0/appwDf75VNBRVmPrC/Comment?api_key=${process.env.REACT_APP_API_KEY}`;
 
-const Comment = ({ toggleComment, setToggleComment }) => {
-  // const [commentData, setCommentData] = useState([]);
+const Comment = ({ toggleComment, setToggleComment, params, neededId }) => {
+  const [commentData, setCommentData] = useState([]);
   const [content, setContent] = useState("");
   const [author, setAuthor] = useState("");
 
@@ -16,9 +16,30 @@ const Comment = ({ toggleComment, setToggleComment }) => {
   //   console.log(commentData);
   // }
 
+  const handleCommentRequest = async (ev) => {
+    ev.preventDefault()
+
+    const newComment = {
+    
+      records: [
+        {
+          fields: {
+            content,
+            author,
+            Post: [
+            `${ neededId }`
+            ]
+          }
+        }
+      ]
+    }
+    await axios.post(API_URL, newComment)
+  }
+
+
 
   return (
-    <form className="comment-form">
+    <form className="comment-form" onSubmit={handleCommentRequest}>
         <label htmlFor="comment">Comment: </label>
         <textarea type='text' id="comment" placeholder="comment..." onChange={(ev) => setContent(ev.target.value)}></textarea>
         <label htmlFor="user">Username: </label>

@@ -11,6 +11,8 @@ const Inspect = ({ postData, commentData }) => {
   const [toggleComment, setToggleComment] = useState(false);
   const params = useParams();
   const details = postData.find((detail) => detail.id === params.id);
+  const neededId = params.id;
+  console.log(neededId);
   // console.log(details);
   const showComment = (ev) => {
     setToggleComment(!toggleComment);
@@ -36,7 +38,7 @@ const Inspect = ({ postData, commentData }) => {
           <AddCommentIcon />
         </button>
       </p>
-      {toggleComment ? <Comment params={params}/> : null}
+      {toggleComment ? <Comment params={params} neededId={neededId}/> : null}
       <section id="comment-section">
         <Comdata
             details={details}
