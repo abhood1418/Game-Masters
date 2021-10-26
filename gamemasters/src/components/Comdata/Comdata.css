@@ -26,3 +26,10 @@
   flex-wrap: wrap;
   flex-direction: row;
 }
+
+#comment-content {
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
