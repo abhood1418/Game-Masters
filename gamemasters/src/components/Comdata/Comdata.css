@@ -5,16 +5,17 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
   flex-direction: row;
+  margin-top: 1%;
 }
 
 .comments-display p {
   border: solid 1px #B33920;
   box-shadow: 0 17px 9px -7px rgba(0,0,0,0.35);
   /* margin: auto; */
-  /* margin-top: .5%; */
+  margin-top: .5%;
   margin-bottom: 2%;
   height: 200px;
-  width: 400px;
+  width: 900px;
   flex-direction: row;
   flex-wrap: wrap;
   display: inline-flex;
