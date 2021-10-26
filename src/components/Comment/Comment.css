@@ -23,3 +23,13 @@
   background-color: #B33920;
   color: black;
 }
+
+@media only screen and (max-width: 375px) {
+  .comment-form {
+    width: 325px;
+  }
+  #comment {
+    height:100px;
+    width:310px;
+  }
+}

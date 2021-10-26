@@ -28,6 +28,8 @@
 @media only screen and (max-width: 375px) {
   .logoclass {
     width: 370px;
+    height: 370px;
+    text-align: center;
   }
 }
 

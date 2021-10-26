@@ -23,3 +23,13 @@ section {
   font-family: 'Orbitron', sans-serif;
   display:block;
 }
+
+@media only screen and (max-width: 375px) {
+  .resourceCards a {
+    width: 310px
+  }
+  .resourcehead {
+    margin-top: 8.5%;
+    margin-bottom: 8.5%;
+  }
+}
