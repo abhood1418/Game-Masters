@@ -1,9 +1,8 @@
 import { useParams } from "react-router-dom";
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import AddCommentIcon from '@mui/icons-material/AddComment';
 import Comment from '../Comment/Comment.js';
 import Comdata from '../Comdata/Comdata';
-import axios from "axios";
 import './Inspect.css';
 
 
@@ -12,8 +11,7 @@ const Inspect = ({ postData, commentData, toggleComms, setToggleComms }) => {
   const params = useParams();
   const details = postData.find((detail) => detail.id === params.id);
   const neededId = params.id;
-  console.log(neededId);
-  // console.log(details);
+
   const showComment = (ev) => {
     setToggleComment(!toggleComment);
   }
@@ -41,7 +39,7 @@ const Inspect = ({ postData, commentData, toggleComms, setToggleComms }) => {
       {toggleComment ? <Comment neededId={neededId} toggleComms={toggleComms} setToggleComms={setToggleComms}/> : null}
       <section id="comment-section">
         <Comdata
-            details={details}
+          details={details}
           commentData={commentData}
           postData={postData}
           />

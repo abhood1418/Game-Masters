@@ -7,16 +7,9 @@ import { Redirect } from 'react-router-dom';
 const API_URL = `https://api.airtable.com/v0/appwDf75VNBRVmPrC/Comment?api_key=${process.env.REACT_APP_API_KEY}`;
 
 const Comment = ({ neededId, toggleComms, setToggleComms }) => {
-  const [commentData, setCommentData] = useState([]);
   const [content, setContent] = useState("");
   const [author, setAuthor] = useState("");
   const [refresh, setRefresh] = useState(false);
-
-  // const fetchComments = async () => {
-  //   const resp = await axios.get(API_URL);
-  //   setCommentData(resp.data.records);
-  //   console.log(commentData);
-  // }
 
   const handleCommentRequest = async (ev) => {
     ev.preventDefault()

@@ -11,8 +11,7 @@ import './Card.css'
 
 
 
-function MediaCard({ postData, post }) {
-  // console.log(post);
+function MediaCard({ post }) {
 
   return (
     <div className="cardstyle">

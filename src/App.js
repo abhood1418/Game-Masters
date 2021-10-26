@@ -4,12 +4,11 @@ import { useState, useEffect } from 'react';
 import { Route } from 'react-router-dom';
 import Cards from "./components/Cards/Cards.js";
 import Header from "./components/Header/Header.js";
-// import Logo from './Media/Logo.png';
+// import Logo from './Media/Logo.png'; -- Alternate Media
 import Logo2 from './Media/Logo2.png';
 import Footer from './components/Footer/Footer';
-// import Game from './Media/Game.mp4';
+// import Game from './Media/Game.mp4'; -- Alternate Media
 import Inspect from './components/Inspect/Inspect.js';
-// import Comment from 'src/components/Comment/Comment.js';
 import Post from './components/Post/Post.js';
 import Resources from './components/Resources/Resources.js';
 
@@ -19,8 +18,6 @@ const API_URL = `https://api.airtable.com/v0/appwDf75VNBRVmPrC/Post?api_key=${pr
 
 const API2_URL = `https://api.airtable.com/v0/appwDf75VNBRVmPrC/Comment?api_key=${process.env.REACT_APP_API_KEY}`;
 
-// process.env.REACT APP STUFF
-// https://api.airtable.com/v0/some_aritable/Table%201?api_key=${process.env.REACT_APP_API_KEY}
 
 function App() {
  //Data Handling 
@@ -37,7 +34,6 @@ function App() {
     const fetchPosts = async () => {
       const resp = await axios.get(API_URL);
       setPostData(resp.data.records);
-      // console.log(postData);
     }
     
     fetchPosts();

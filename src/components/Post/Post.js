@@ -1,8 +1,7 @@
-// import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import axios from 'axios';
 import { useState } from 'react';
-import { Redirect, useParams } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
 import './Post.css';
 
 
