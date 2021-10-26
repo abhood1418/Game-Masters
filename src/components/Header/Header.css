@@ -80,3 +80,24 @@ a:visited {
     width: 25px;
   }
 }
+
+@media only screen and (max-width: 525px) {
+  .headlogo {
+    width: 275px;
+    padding-top: 22px;
+  }
+
+  #hamburger {
+    width: 25px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .headlogo {
+    width: 275px;
+    padding-top: 22px;
+  }
+
+  #hamburger {
+    width: 25px;
+  }
+}

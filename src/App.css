@@ -5,3 +5,24 @@
 .logoclass {
   height: 500px;
 }
+
+@media only screen and (max-width: 360px) {
+  .logoclass {
+    width: 100px;
+    /* height:auto; */
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .logoclass {
+    width:275px;
+    height:auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .logoclass {
+    width:300px;
+    height:auto;
+  }
+}
