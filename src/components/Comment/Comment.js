@@ -2,13 +2,15 @@ import Button from '@mui/material/Button';
 import { useState } from 'react';
 import axios from 'axios';
 import './Comment.css';
+import { Redirect } from 'react-router-dom';
 
 const API_URL = `https://api.airtable.com/v0/appwDf75VNBRVmPrC/Comment?api_key=${process.env.REACT_APP_API_KEY}`;
 
-const Comment = ({ toggleComment, setToggleComment, params, neededId }) => {
+const Comment = ({ neededId, toggleComms, setToggleComms }) => {
   const [commentData, setCommentData] = useState([]);
   const [content, setContent] = useState("");
   const [author, setAuthor] = useState("");
+  const [refresh, setRefresh] = useState(false);
 
   // const fetchComments = async () => {
   //   const resp = await axios.get(API_URL);
@@ -27,13 +29,18 @@ const Comment = ({ toggleComment, setToggleComment, params, neededId }) => {
             content,
             author,
             Post: [
-            `${ neededId }`
+              `${neededId}`
             ]
           }
         }
       ]
     }
     await axios.post(API_URL, newComment)
+    setRefresh(true);
+    setToggleComms(!toggleComms);
+  }
+  if (refresh) {
+    return <Redirect to={`/inspect/${neededId}`}/>
   }
 
 

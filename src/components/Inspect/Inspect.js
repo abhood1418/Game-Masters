@@ -7,7 +7,7 @@ import axios from "axios";
 import './Inspect.css';
 
 
-const Inspect = ({ postData, commentData }) => {
+const Inspect = ({ postData, commentData, toggleComms, setToggleComms }) => {
   const [toggleComment, setToggleComment] = useState(false);
   const params = useParams();
   const details = postData.find((detail) => detail.id === params.id);
@@ -38,7 +38,7 @@ const Inspect = ({ postData, commentData }) => {
           <AddCommentIcon />
         </button>
       </p>
-      {toggleComment ? <Comment params={params} neededId={neededId}/> : null}
+      {toggleComment ? <Comment neededId={neededId} toggleComms={toggleComms} setToggleComms={setToggleComms}/> : null}
       <section id="comment-section">
         <Comdata
             details={details}

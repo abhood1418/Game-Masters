@@ -30,6 +30,7 @@ function App() {
     //Menu & Data Toggles
   // const [toggleMenu, setToggleMenu] = useState(false);
   const [toggleFetch, setToggleFetch] = useState(true);
+  const [toggleComms, setToggleComms] = useState(true);
   
   //Data from Airtable
   useEffect(() => {
@@ -49,7 +50,7 @@ function App() {
       console.log(commentData);
     }
     fetchComments();
-  }, []);
+  }, [toggleComms]);
 
 
 
@@ -78,6 +79,8 @@ function App() {
         <Inspect
           postData={postData}
           commentData={commentData}
+          toggleComms={toggleComms}
+          setToggleComms={setToggleComms}
         />
         <Footer />
       </Route>
