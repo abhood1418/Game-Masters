@@ -15,9 +15,12 @@ import Resources from './components/Resources/Resources.js';
 
 
 //Post GET URL
-const API_URL = "https://api.airtable.com/v0/appwDf75VNBRVmPrC/Post?api_key=keyTC7ZYPD0132E0A";
+const API_URL = `https://api.airtable.com/v0/appwDf75VNBRVmPrC/Post?api_key=${process.env.REACT_APP_API_KEY}`;
 
-const API2_URL = "https://api.airtable.com/v0/appwDf75VNBRVmPrC/Comment?api_key=keyTC7ZYPD0132E0A"
+const API2_URL = `https://api.airtable.com/v0/appwDf75VNBRVmPrC/Comment?api_key=${process.env.REACT_APP_API_KEY}`;
+
+// process.env.REACT APP STUFF
+// https://api.airtable.com/v0/some_aritable/Table%201?api_key=${process.env.REACT_APP_API_KEY}
 
 function App() {
  //Data Handling 
