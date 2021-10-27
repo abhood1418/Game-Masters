@@ -11,6 +11,7 @@ import Footer from './components/Footer/Footer';
 import Inspect from './components/Inspect/Inspect.js';
 import Post from './components/Post/Post.js';
 import Resources from './components/Resources/Resources.js';
+import Egg from './components/Egg/Egg.js';
 
 
 //Post GET URL
@@ -105,6 +106,10 @@ function App() {
           />
         ))}
         <Footer />
+      </Route>
+
+      <Route path="/egg">
+        <Egg />
       </Route>
     </div>
   );
