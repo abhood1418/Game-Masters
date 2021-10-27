@@ -56,7 +56,8 @@ function App() {
       <Header />
       <img src={Logo2} alt="Game Masters Logo" className="logoclass"/>
 
-      <h2>Recent Posts</h2>
+        <h2>Recent Posts</h2>
+        <hr/>
         {postData.map((post, idx) => (
           <Cards
             postData={postData}

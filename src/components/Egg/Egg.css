@@ -8,3 +8,7 @@
 .easterdiv {
   height: 100%;
 }
+
+.easterdiv li {
+  list-style-type: none;
+}
