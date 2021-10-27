@@ -12,7 +12,7 @@ import Inspect from './components/Inspect/Inspect.js';
 import Post from './components/Post/Post.js';
 import Resources from './components/Resources/Resources.js';
 import Egg from './components/Egg/Egg.js';
-
+import ControlledCarousel from './components/News/News.js';
 
 //Post GET URL
 const API_URL = `https://api.airtable.com/v0/appwDf75VNBRVmPrC/Post?api_key=${process.env.REACT_APP_API_KEY}`;
@@ -54,10 +54,12 @@ function App() {
     <div className="global">
       <Route path='/' exact>
       <Header />
-      <img src={Logo2} alt="Game Masters Logo" className="logoclass"/>
-
+        <img src={Logo2} alt="Game Masters Logo" className="logoclass" />
+        
+        <hr />
+        <ControlledCarousel />
+        <hr />
         <h2>Recent Posts</h2>
-        <hr/>
         {postData.map((post, idx) => (
           <Cards
             postData={postData}

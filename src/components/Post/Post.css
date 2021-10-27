@@ -23,7 +23,7 @@ form {
   flex-direction: column;
   display: flex;
   font-family: 'Orbitron', sans-serif;
-  justify-content: center;
+  justify-content: center !important;
   font-weight: bold;
 }
 
@@ -34,7 +34,7 @@ textarea {
 }
 
 form textarea {
-  justify-content: center;
+  justify-content: center !important;
 }
 
 #submitpost {
@@ -58,4 +58,8 @@ form textarea {
     height: 250px;
     margin: auto;
   }
+}
+
+textarea#content {
+  margin: auto;
 }

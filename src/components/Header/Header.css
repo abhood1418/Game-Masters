@@ -6,6 +6,12 @@ text-align: center;
 justify-content: center;
 background-color: #311614;
 }
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+  color: white;
+  text-decoration: none;
+}
+
 /* #090809 */
 .header {
 display: inline-flex;
@@ -32,13 +38,13 @@ opacity: 0.98; */
 
 .menulist {
   background-color: #311614;
-  color: white;
+  color: white !important;
   z-index: auto;
 }
 
 a {
-  text-decoration: none;
-  color:white;
+  text-decoration: none !important;
+  color:white !important;
 }
 
 a:visited {
@@ -51,6 +57,8 @@ a:visited {
   padding-right: 40px;
   background-color: #000000;
   z-index: auto;
+  margin-left: 10%;
+  box-sizing: content-box !important;
 }
 
 .headlogo {
@@ -86,6 +94,10 @@ ul#composition-menu {
   .css-e53awj-MultiStack-root {
     width: 1px;
   }
+
+  #hamburger {
+    margin-left: 1.5%;
+  }
 }
 
 @media only screen and (max-width: 525px) {
@@ -99,6 +111,17 @@ ul#composition-menu {
   }
 }
 @media only screen and (max-width: 500px) {
+  .headlogo {
+    width: 250px;
+    padding-top: 22px;
+  }
+
+  #hamburger {
+    width: 25px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
   .headlogo {
     width: 250px;
     padding-top: 22px;

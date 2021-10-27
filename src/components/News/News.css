@@ -1,0 +1,60 @@
+.carocaro {
+  background-color: black;
+  margin-bottom: 3%;
+}
+
+.caro-img {
+  width: 75%;
+  height: 600px;
+}
+
+@media only screen and (max-width: 540px) {
+  .caro-img {
+    height:300px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .caro-img {
+    height:400px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .caro-img {
+    height:200px;
+  }
+}
+
+@media only screen and (max-width: 411px) {
+  .caro-img {
+    height:200px;
+
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .caro-img {
+    height:200px;
+  }
+}
+
+
+@media only screen and (max-width: 320px) {
+  .caro-img {
+    height:200px;
+    width:75%;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .caro-img {
+    height:200px;
+    width:75%;
+  }
+}
+
+
+
+
+
