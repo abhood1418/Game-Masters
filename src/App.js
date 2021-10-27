@@ -109,6 +109,7 @@ function App() {
       </Route>
 
       <Route path="/egg">
+        <Header/>
         <Egg />
       </Route>
     </div>

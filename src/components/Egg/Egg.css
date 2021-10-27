@@ -1,0 +1,10 @@
+.eggimg {
+  width: 300px;
+  height: auto;
+  border: solid 2px #B33920;
+  box-shadow: 0 17px 9px -7px rgba(0,0,0,0.35);
+}
+
+.easterdiv {
+  height: 100%;
+}
