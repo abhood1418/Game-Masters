@@ -20,8 +20,8 @@ function ControlledCarousel() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Critical Role Starts Campaign 3</h3>
-          <p>Check out Critical Role's newest Campaign Here!</p>
+          <h3>The Adventure Begins!</h3>
+          <p>Check out Critical Role's newest Campaign in Resources!</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -32,8 +32,8 @@ function ControlledCarousel() {
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>A New Sourcebook has Arrived</h3>
+          <p>Tasha's Cauldron of Everything is Out Now!</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -44,9 +44,9 @@ function ControlledCarousel() {
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Looking for a New Style Campaign?</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Check out Humblewood's 5e Compatible Sourcebook!
           </p>
         </Carousel.Caption>
       </Carousel.Item>
