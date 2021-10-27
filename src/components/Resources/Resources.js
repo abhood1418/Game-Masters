@@ -35,7 +35,9 @@ const Resources = () => {
         </Button>
       </CardActions>
       </Card>
-    </a>
+      </a>
+      
+      <a href="https://paizo.com/pathfinder">
       <Card sx={{ maxWidth: 345 }} className="cards">
       <CardActionArea>
         <CardMedia
@@ -59,7 +61,9 @@ const Resources = () => {
         </Button>
       </CardActions>
       </Card>
-      
+      </a>
+
+      <a href="https://www.chaosium.com/call-of-cthulhu-rpg/">
       <Card sx={{ maxWidth: 345 }} className="cards">
       <CardActionArea>
         <CardMedia
@@ -83,7 +87,9 @@ const Resources = () => {
         </Button>
       </CardActions>
       </Card>
+      </a>
       
+      <a href="https://www.cubicle7games.com/our-games/warhammer-fantasy-roleplay-2/">
       <Card sx={{ maxWidth: 345}} className="cards">
       <CardActionArea>
         <CardMedia
@@ -107,7 +113,9 @@ const Resources = () => {
         </Button>
       </CardActions>
       </Card>
-      
+      </a>
+
+      <a href="https://rtalsoriangames.com/cyberpunk/">
       <Card sx={{ maxWidth: 345 }} className="cards">
       <CardActionArea>
         <CardMedia
@@ -131,6 +139,7 @@ const Resources = () => {
         </Button>
       </CardActions>
     </Card>
+    </a>
     </div>
   )
 }

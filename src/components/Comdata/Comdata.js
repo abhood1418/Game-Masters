@@ -4,16 +4,8 @@ import './Comdata.css';
 const Comdata = ({ details, commentData, postData }) => {
 
   const detailsId = details.id;
-  console.log(detailsId);
   
-  const commentId = commentData[0].fields.Post[0];
-  console.log(commentId);
-  
-  console.log(commentData);
-
-
   const showComments = commentData.filter((comment) => comment.fields.Post[0] === detailsId)
-  console.log(showComments);
 
 
   return (

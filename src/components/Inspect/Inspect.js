@@ -16,7 +16,6 @@ const Inspect = ({ postData, commentData, toggleComms, setToggleComms }) => {
     setToggleComment(!toggleComment);
   }
 
-  console.log(postData);
   
   return (
     <div className='inspection'>
