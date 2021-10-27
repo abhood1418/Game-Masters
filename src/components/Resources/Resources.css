@@ -24,6 +24,12 @@ section {
   display:block;
 }
 
+@media only screen and (max-width: 320px) {
+  .resourceCards {
+    width: 310px;
+  }
+}
+
 @media only screen and (max-width: 375px) {
   .resourceCards a {
     width: 310px

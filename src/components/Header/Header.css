@@ -33,6 +33,7 @@ opacity: 0.98; */
 .menulist {
   background-color: #311614;
   color: white;
+  z-index: auto;
 }
 
 a {
@@ -44,21 +45,12 @@ a:visited {
   color: white;
 }
 
-/* #hamburger Button {
-  padding-left: 40vw;
-  padding-top: 4vh;
-  width: 10px;
-}
-
-#hamburger {
-  width: 100px;
-} */
-
 #hamburger {
   width: 50px;
   padding-top: 20px;
   padding-right: 40px;
   background-color: #000000;
+  z-index: auto;
 }
 
 .headlogo {
@@ -70,14 +62,29 @@ a:visited {
   text-align: left;
 }
 
-@media only screen and (max-width: 375px) {
+ul#composition-menu {
+  z-index: 1;
+}
+
+
+
+@media only screen and (max-width: 320px) {
   .headlogo {
-    width: 275px;
+    width: 5px;
     padding-top: 22px;
+    margin: 0px;
   }
 
-  #hamburger {
-    width: 25px;
+  .header Button {
+    width: 5px;
+  }
+
+  #composition-button {
+    width: 5px;
+  }
+  
+  .css-e53awj-MultiStack-root {
+    width: 1px;
   }
 }
 
@@ -93,7 +100,7 @@ a:visited {
 }
 @media only screen and (max-width: 500px) {
   .headlogo {
-    width: 275px;
+    width: 250px;
     padding-top: 22px;
   }
 

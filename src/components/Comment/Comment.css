@@ -33,3 +33,33 @@
     width:310px;
   }
 }
+
+@media only screen and (max-width: 411px) {
+  .comment-form {
+    width: 325px;
+  }
+  #comment {
+    height:100px;
+    width:310px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .comment-form {
+    width: 325px;
+  }
+  #comment {
+    height:100px;
+    width:310px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .comment-form {
+    width: 325px;
+  }
+  #comment {
+    height:100px;
+    width:310px;
+  }
+}

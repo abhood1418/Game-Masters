@@ -43,7 +43,7 @@
   position: relative;
   border: 0px;
   height: 30px;
-  padding-left: 800px;
+  justify-content: end;
 }
 
 .inspimg {
@@ -53,16 +53,85 @@
   max-height: 455px;
 }
 
+@media only screen and (max-width: 320px) {
+  .inspection p {
+    width: 300px;
+  }
+}
+
 @media only screen and (max-width: 375px) {
   .inspimg {
     width: 75%;
   }
 
   .inspection p {
-    width: 325px;
+    width: 285px;
     padding: 12px;
   }
 
+  .combtn {
+    margin: auto;
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 411px) {
+  .inspimg {
+    width: 75%;
+  }
+
+  .inspection p {
+    width: 285px;
+    padding: 12px;
+  }
+
+  .combtn {
+    margin: auto;
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .inspimg {
+    width: 75%;
+  }
+
+  .inspection p {
+    width: 285px;
+    padding: 12px;
+  }
+
+  .combtn {
+    margin: auto;
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .inspimg {
+    width: 75%;
+  }
+  .inspection p {
+    width: 285px;
+    padding: 12px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .combtn {
+    margin: auto;
+    padding-left: 0px;
+  }
+  .inspection p {
+    width: 75%;
+    padding: 12px;
+  }
+  .describe {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
   .combtn {
     margin: auto;
     padding-left: 0px;
