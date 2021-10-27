@@ -17,12 +17,12 @@ input {
 label {
   margin-top: 4%;
   margin-bottom: 1%;
+  font-family: 'Orbitron', sans-serif;
 }
 
 form {
   flex-direction: column;
   display: flex;
-  font-family: 'Orbitron', sans-serif;
   justify-content: center !important;
   font-weight: bold;
 }

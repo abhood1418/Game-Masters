@@ -57,7 +57,7 @@ const Resources = () => {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          Learn More
+        Learn More
         </Button>
       </CardActions>
       </Card>
