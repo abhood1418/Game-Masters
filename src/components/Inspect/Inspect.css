@@ -69,7 +69,7 @@
   .inspection p {
     /* width: 75%; */
     padding: 12px;
-    width: 350px;
+    width: 550px;
     margin: auto;
   }
   .describe {
@@ -123,6 +123,7 @@
   .inspection p {
     width: 285px;
     padding: 12px;
+    font-size: 10.5px;
   }
 
   .combtn {
