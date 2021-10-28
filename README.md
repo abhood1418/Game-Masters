@@ -9,28 +9,22 @@ An App for Game Masters to collaborate and share ideas for TTRPGs.
 **Component Hierarchy:**
 
 
-![Screen Shot 2021-10-21 at 6 16 13 PM](https://user-images.githubusercontent.com/91752553/138365211-18cdba66-3166-429e-91c9-dbc130099bbc.png)
+![Screen Shot 2021-10-28 at 10 16 26 AM](https://user-images.githubusercontent.com/91752553/139283416-ddcb480e-90d9-4807-81ed-6d5305270201.png)
+
 
 
 **Wireframes:** 
 
 **Mobile:**
 
-![Screen Shot 2021-10-21 at 5 38 38 PM](https://user-images.githubusercontent.com/91752553/138364797-1553b1bd-cf3c-4bdf-9fe6-39e3336c7999.png)
-
-
-![Screen Shot 2021-10-22 at 11 09 33 AM](https://user-images.githubusercontent.com/91752553/138479144-31461481-215b-41ee-a0dc-e06b78303133.png)
+![Screen Shot 2021-10-28 at 10 30 25 AM](https://user-images.githubusercontent.com/91752553/139283514-b85c0498-af95-4ae6-9268-8a16f887c2c2.png)
 
 
 **Desktop:**
 
-![Screen Shot 2021-10-21 at 5 39 28 PM](https://user-images.githubusercontent.com/91752553/138364824-7a7d12ce-df3f-470f-bea1-fc45558bfcff.png)
+![Screen Shot 2021-10-28 at 10 30 44 AM](https://user-images.githubusercontent.com/91752553/139283568-e926c3b7-f6e0-443c-b68a-e6195a03d4eb.png)
 
-
-![Screen Shot 2021-10-21 at 5 39 45 PM](https://user-images.githubusercontent.com/91752553/138365053-4bcfa56c-fcd4-44f0-b294-3fe76144765c.png)
-
-
-![Screen Shot 2021-10-22 at 11 10 55 AM](https://user-images.githubusercontent.com/91752553/138479171-3771d3ef-2ea2-4d54-bdac-b4943d226237.png)
+![Screen Shot 2021-10-28 at 10 31 00 AM](https://user-images.githubusercontent.com/91752553/139283598-90479a78-44ea-40cf-91f3-912cccecc333.png)
 
 
 **API:**
@@ -48,21 +42,21 @@ An App for Game Masters to collaborate and share ideas for TTRPGs.
  
  -- Utilizeds React Router.
  
- -- Utilizes 6 various Components.
+ -- Utilizes (at minimum) 6 various Components.
  
  -- Utilizes Airtable and Axios.
  
- -- Utilizes GET & POST CRUD methods. 
+ -- Utilizes GET & POST CRUD methods.
+ 
+ -- Utilizes Responsive Design.
  
  **Post MVP:** 
   
-  -- Utilize DELETE & PUT axios.
+  -- Add Easter Egg Component
   
-  -- Add additional external API from Dungeons & Dragons.
+  -- Add Carousel for Displaying News
   
-  -- Add new Post Components for Sub Categories.
-  
-  -- Add polling feature for User discussions.
+  -- Incorporate both Material UI & Bootstrap
   
   
   **Project Schedule:** 
