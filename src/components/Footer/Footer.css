@@ -1,7 +1,6 @@
 .footimg {
   height: 50px;
   padding-left: 20px;
-  /* margin:; */
   display: inline-flex;
   justify-content: flex-start;
   padding-top: 8px;
@@ -24,7 +23,6 @@
   margin: auto;
   text-align: center;
   padding-bottom: 10px;
-  /* transform: translateY(-20px); */
 }
 
 .footer p {

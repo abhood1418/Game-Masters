@@ -12,7 +12,6 @@ background-color: #311614;
   text-decoration: none;
 }
 
-/* #090809 */
 .header {
 display: inline-flex;
 background-color: #000000;
@@ -20,8 +19,6 @@ color: #B33920;
 width: 100%;
 font-family: 'Orbitron', sans-serif;
 border-bottom: solid 4.2px #B33920;
-/* position: fixed; 
-opacity: 0.98; */
 }
 
 .header h1 {
@@ -71,7 +68,7 @@ a:visited {
 }
 
 ul#composition-menu {
-  z-index: 1;
+  z-index: 10 !important;
 }
 
 
