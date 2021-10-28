@@ -46,7 +46,9 @@ An App for Game Masters to collaborate and share ideas for TTRPGs.
  
  -- Utilizes Airtable and Axios.
  
- -- Utilizes GET & POST CRUD methods. 
+ -- Utilizes GET & POST CRUD methods.
+ 
+ -- Utilizes Responsive Design.
  
  **Post MVP:** 
   
