@@ -42,7 +42,7 @@ An App for Game Masters to collaborate and share ideas for TTRPGs.
  
  -- Utilizeds React Router.
  
- -- Utilizes 6 various Components.
+ -- Utilizes (at minimum) 6 various Components.
  
  -- Utilizes Airtable and Axios.
  
@@ -50,13 +50,11 @@ An App for Game Masters to collaborate and share ideas for TTRPGs.
  
  **Post MVP:** 
   
-  -- Utilize DELETE & PUT axios.
+  -- Add Easter Egg Component
   
-  -- Add additional external API from Dungeons & Dragons.
+  -- Add Carousel for Displaying News
   
-  -- Add new Post Components for Sub Categories.
-  
-  -- Add polling feature for User discussions.
+  -- Incorporate both Material UI & Bootstrap
   
   
   **Project Schedule:** 
