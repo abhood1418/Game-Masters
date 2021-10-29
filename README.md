@@ -5,6 +5,8 @@ An App for Game Masters to collaborate and share ideas for TTRPGs.
 
 **Description:** An app where Game Masters from all TTRPGs can gather to share and receive feedback on their game design ideas. The app will feature the ability for users to share and receive feedback on their own ideas and offer resources for further reference. The app was designed and created with React and utilizes Airtable for data storage. Also, it features 6 individual Components.
 
+Live Link: 
+https://modest-turing-486509.netlify.app/
 
 **Component Hierarchy:**
 
